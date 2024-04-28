@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/collapsible";
 import { Button } from "@/components/ui/button";
 import { Input } from "./ui/input";
-import { createGroup } from "@/actions/addGroup";
+import { createGroup } from '../actions/addGroup';
 import toast from "react-hot-toast";
 
 const AddGroup = () => {

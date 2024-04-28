@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
 import Image from "next/image";
-import { searchUsers } from "@/actions/SearchUsers";
+import { searchUsers } from "../actions/SearchUsers";
 
 const AddMemberToGroup = () => {
   const [inputValue, setInputValue] = useState("");
