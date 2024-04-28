@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "./ui/input";
 
 import toast from "react-hot-toast";
-import { createGroup } from "@/actions/AddGroup";
+import { createGroup } from "@/libs/actions/AddGroup";
 
 const AddGroup = () => {
 
